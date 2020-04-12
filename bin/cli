@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+try {
+  require('../dist/cli.bundle.js')
+} catch (err) {
+  console.log(err.message)
+}

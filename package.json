@@ -1,0 +1,27 @@
+{
+  "name": "webpack-ts-cli-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/sdk.bundle.js",
+  "bin": {
+    "cli": "./bin/cli"
+  },
+  "scripts": {
+    "cli": "node ./bin/cli",
+    "dev": "webpack --config webpack.config.js --watch",
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "commander": "^5.0.0",
+    "prompts": "^2.3.2",
+    "web3": "^1.2.6"
+  }
+}
