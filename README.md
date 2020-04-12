@@ -1,4 +1,5 @@
-# Webpack + TypeScript SDK + CLI Example
+# SDK + CLI Example
+## Using Webpack and TypeScript
 
 Install dependencies  
 `$ yarn install`  
